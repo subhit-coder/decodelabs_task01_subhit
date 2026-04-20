@@ -1,10 +1,7 @@
 """
 ╔════════════════════════════════════════════════════════════════════════════╗
 ║                                                                            ║
-║           DATA CLEANING - COMPLETE PYTHON SCRIPT                          ║
-║                                                                            ║
-║     आपके Order Dataset को clean करने के लिए                              ║
-║     (Complete code for cleaning your Order Dataset)                       ║
+║           DATA CLEANING --                  ║
 ║                                                                            ║
 ╚════════════════════════════════════════════════════════════════════════════╝
 """
@@ -18,6 +15,7 @@ warnings.filterwarnings('ignore')
 # ============================================================================
 # ⭐ STEP 1: DATA LOAD करना (Load Your Data)
 # ============================================================================
+df = pd.read_excel('file.xlsx')
 
 print("\n" + "="*100)
 print("█" * 100)
